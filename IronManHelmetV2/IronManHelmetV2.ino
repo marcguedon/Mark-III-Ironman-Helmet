@@ -7,17 +7,20 @@
 #include <ServoEasing.hpp>
 #include <VoiceRecognitionV4.h>
 
+//PINS NUMBER
 #define EYES_PIN          3
 #define TACTILE_KEY_PIN   2
 #define HELMET_SERVO_PIN  5
 #define FACE_SERVO_PIN    6
 
+//MAY NEED TO CHANGE
 #define OPENED_HELMET     0
 #define OPENED_FACE       0
 #define CLOSED_HELMET     150
 #define CLOSED_FACE       170
 #define SERVOS_SPEED      190
 
+//COMMANDS NUMBER
 #define JarvisRecord      (0)
 #define HelmetOnRecord    (1)
 #define HelmetOffRecord   (2)
