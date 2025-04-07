@@ -5,7 +5,7 @@
  */
 
 #include <ServoEasing.hpp>
-#include <VoiceRecognitionV4.h>
+#include "VoiceRecognitionV4.h"
 
 #define EYES_PIN          3
 #define TACTILE_KEY_PIN   2
